@@ -62,7 +62,7 @@ code {
 /* Navbar */
 
 .navbar {
-  height: 100px;
+  height: 70px;
   width: 100%;
   background: white;
   color: var(--colors-text);
@@ -95,6 +95,10 @@ code {
   border-radius: 50%;
   
 }
+.navbar li .phone-box {
+
+}
+
 
 /* Buttons */
 
