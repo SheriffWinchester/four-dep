@@ -1,15 +1,15 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import headerImage from '/public/Header.png'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Index.module.css'
 
-export default function Home() {
+export default function Index() {
   return (
         <Image 
             src={headerImage}
-            
+            width={1240}
+            height={640}
+            layout='responsive'
         />
-
   )
 }
