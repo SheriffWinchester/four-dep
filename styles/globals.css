@@ -2,7 +2,7 @@
 
 :root {
   --color-bg: #eef0f1;
-  --color-text: #08090a;
+  --color-text: #7EB2FA;
   --color-blue: #3b49df;
   --color-red: #df3b3b;
   --color-green: #3bdf72;
@@ -15,10 +15,7 @@ body {
   font-family: 'Noto Sans', sans-serif;
   background-color: var(--color-bg);
   color: var(--color-text);
-  margin-top: 50px;
 }
-
-
 
 main {
   padding: 1rem 10vw;
@@ -64,9 +61,9 @@ code {
 .navbar {
   height: 70px;
   width: 100%;
-  background: white;
+  background: #006FBF80;
   color: var(--colors-text);
-  position: fixed;
+  position: absolute;
   top: 0;
   padding: 0 10vw;
   font-weight: bold;
@@ -264,3 +261,7 @@ input[type="file"] {
 }
 
 .hidden { display:  none; }
+
+.header {
+  position: absolute;
+}
