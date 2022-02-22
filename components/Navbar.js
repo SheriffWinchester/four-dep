@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import amosovLogo from '/public/amosovlogo1.png'
 
 export default function Navbar(){
     return (
@@ -8,13 +9,11 @@ export default function Navbar(){
                 <li>
                     <Link href='/'>
                         <Image 
-                            src='/public/amosovlogo.png'
-                            alt='Logo of Amosov Institute'
-                            width={500}
-                            height={500}
+                            src={amosovLogo}
+                            width={70}
+                            height={70}
                         />
                     </Link>
-                    
                 </li>
             </ul>
         </nav>

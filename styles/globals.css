@@ -62,7 +62,7 @@ code {
 /* Navbar */
 
 .navbar {
-  height: 70px;
+  height: 100px;
   width: 100%;
   background: white;
   color: var(--colors-text);
