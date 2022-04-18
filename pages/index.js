@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Index.module.css'
+import headerImage from '/public/Header.png'
 
 export default function Index() {
   return (
